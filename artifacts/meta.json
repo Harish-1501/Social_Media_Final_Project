@@ -1,0 +1,35 @@
+{
+  "num_users": 943,
+  "num_items": 1682,
+  "safe_genre_cols": [
+    "unknown",
+    "Action",
+    "Adventure",
+    "Animation",
+    "Children_s",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Fantasy",
+    "Film-Noir",
+    "Horror",
+    "Musical",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "mf": {
+    "k": 20
+  },
+  "hybrid": {
+    "k_user": 30,
+    "k_item": 30,
+    "genre_dim": 19,
+    "hidden": 128,
+    "dropout": 0.1
+  }
+}
